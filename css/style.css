@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.adviceDisplay{
+    width: 40vw;
+    height: 40vh;
+    background: hsl(217, 19%, 24%);
+    position: relative;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 8px;
+}
+
+#adviceNum{
+    color: hsl(150, 100%, 66%);
+}
+
+#adviceDisplay{
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    background: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    padding: 8px;
+    position: absolute;
+    top: 245px;
+    left: 18%;
+}
+
+.divider{
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+}
+
+button:hover{
+    
+}
