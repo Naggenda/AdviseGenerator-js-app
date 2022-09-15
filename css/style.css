@@ -9,7 +9,9 @@ body{
 }
 
 .adviceDisplay{
-    width: 40vw;
+    /* width: 40vw; */
+    width: 50%;
+    margin: 80px 320px;
     height: 40vh;
     background: hsl(217, 19%, 24%);
     position: relative;
@@ -35,16 +37,67 @@ button{
     border-radius: 50%;
     padding: 8px;
     position: absolute;
-    top: 245px;
-    left: 18%;
+    top: 315px;
+    left: 49%;
 }
 
 .divider{
     position: absolute;
     bottom: 30px;
-    left: 35px;
+    left: 105px;
 }
 
 button:hover{
     
+}
+
+.divider2{
+    display: none;
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+}
+
+@media screen and (max-width: 768px){
+    .adviceDisplay{
+        width: 80%;
+        margin: 80px;
+    }
+    button{
+        top: 280px;
+        left: 49%;
+    }
+    .divider{
+        left: 90px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .adviceDisplay{
+        width: 100vw;
+        margin: 0;
+    }
+    .divider{
+        display: none;
+    }
+    .divider2{
+        display: block;
+    }
+    button{
+        top: 200px;
+        left: 45%;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    .divider2{
+        left: 40px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .divider2{
+        left: 15px;
+    }
 }

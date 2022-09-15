@@ -1,7 +1,7 @@
 let advice = document.getElementById('adviceDisplay');
 let adviceNum = document.getElementById('adviceNum');
 let quote = [
-    "its easyto sit up and take notice, whats difficult is getting up nd taking notice",
+    "'its easyto sit up and take notice, whats difficult is getting up nd taking notice'",
     "qeat your money",
     "weat your money",
     "reat your money",
