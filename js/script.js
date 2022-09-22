@@ -1,5 +1,8 @@
 let advice = document.getElementById('adviceDisplay');
 let adviceNum = document.getElementById('adviceNum');
+// let advicePage = document.querySelector('#advicePage');
+
+
 let quote = [
     '"its easy to sit up and take notice, whats difficult is getting up and taking action"',
     '"people dont care about you, while it may sound depressing, its actually liberating. it means you dont have to worry so much what people think of you."',
@@ -18,14 +21,14 @@ let quote = [
     "heat your money"
 ];
 
-function genAdvice(){
+document.getElementById('genAdvice').addEventListener('click', function(){
     let r =Math.floor(Math.random()*quote.length);
     let num = r+1;
     adviceNum.innerText = "Advice #" + num;
     advice.innerText = quote[r];
-}
+});
 
-function advicer(){
+document.getElementById('advice').onload = function(){
     let r =Math.floor(Math.random()*quote.length);
     let num = r+1;
     adviceNum.innerText = "Advice #" + num;
